@@ -1,0 +1,33 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {
+    "no-console": [true, "log"],
+    "no-debugger": false,
+    "no-unused-expression": false,
+    "object-literal-sort-keys": false,
+    "radix": false
+  },
+  "rules": {
+    "member-access": [false],
+    "ordered-imports": [false],
+    "interface-name": [false],
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "arrow-parens": [false],
+    "max-line-length": [false],
+    "trailing-comma": [false],
+    "object-literal-sort-keys": [false],
+    "no-var-requires": [false],
+    "interface-over-type-literal": false,
+    "mocha-avoid-only": true,
+    "no-console": [true, "log"],
+    "no-debugger": false,
+    "no-implicit-dependencies": false,
+    "no-object-literal-type-assertion": false,
+    "no-submodule-imports": false,
+    "prettier": true,
+    "radix": false,
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"]
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
